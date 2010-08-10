@@ -2,14 +2,14 @@
 {
 	1D3623240D0F684500981E51 /* GoogleDictionaryAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1189, 585}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1189, 575}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 343}";
 		};
 	};
 	1D3623250D0F684500981E51 /* GoogleDictionaryAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1189, 580}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1189, 575}}";
 			sepNavSelRange = "{60, 0}";
 			sepNavVisRange = "{0, 565}";
 		};
@@ -27,6 +27,8 @@
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* GoogleDictionary */,
 		);
+		breakpoints = (
+		);
 		codeSenseManager = D6EC3E7F12111C3100C1BA96 /* Code sense */;
 		executables = (
 			D6EC3E7212111C2200C1BA96 /* GoogleDictionary */,
@@ -37,7 +39,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					1011,
+					891,
 					20,
 					48,
 					43,
@@ -54,22 +56,25 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 303124059;
-			PBXWorkspaceStateSaveDate = 303124059;
+			PBXPerProjectTemplateStateSaveDate = 303124999;
+			PBXWorkspaceStateSaveDate = 303124999;
 		};
 		perUserProjectItems = {
-			D6EC3E8112111C5300C1BA96 = D6EC3E8112111C5300C1BA96 /* PBXTextBookmark */;
 			D6EC3E9712111F5200C1BA96 = D6EC3E9712111F5200C1BA96 /* PBXTextBookmark */;
-			D6EC3E9812111F5200C1BA96 = D6EC3E9812111F5200C1BA96 /* PBXTextBookmark */;
-			D6EC3E9912111F5200C1BA96 = D6EC3E9912111F5200C1BA96 /* PBXTextBookmark */;
-			D6EC3E9A12111F5200C1BA96 = D6EC3E9A12111F5200C1BA96 /* PBXTextBookmark */;
-			D6EC3E9B12111F5200C1BA96 = D6EC3E9B12111F5200C1BA96 /* PBXTextBookmark */;
-			D6EC3E9C12111F5200C1BA96 = D6EC3E9C12111F5200C1BA96 /* PBXTextBookmark */;
-			D6EC3E9D12111F5200C1BA96 = D6EC3E9D12111F5200C1BA96 /* PBXTextBookmark */;
-			D6EC3E9E12111F5200C1BA96 = D6EC3E9E12111F5200C1BA96 /* PBXTextBookmark */;
-			D6EC3E9F12111F5200C1BA96 = D6EC3E9F12111F5200C1BA96 /* PBXTextBookmark */;
-			D6EC3F041211491800C1BA96 = D6EC3F041211491800C1BA96 /* PBXTextBookmark */;
-			D6EC3F051211491800C1BA96 = D6EC3F051211491800C1BA96 /* PBXTextBookmark */;
+			D6EC3F4B1211510F00C1BA96 = D6EC3F4B1211510F00C1BA96 /* PBXTextBookmark */;
+			D6EC3F4D1211510F00C1BA96 = D6EC3F4D1211510F00C1BA96 /* PBXTextBookmark */;
+			D6EC3F501211510F00C1BA96 = D6EC3F501211510F00C1BA96 /* PBXTextBookmark */;
+			D6EC3F511211510F00C1BA96 = D6EC3F511211510F00C1BA96 /* PBXTextBookmark */;
+			D6EC3F521211510F00C1BA96 = D6EC3F521211510F00C1BA96 /* PBXTextBookmark */;
+			D6EC3F531211510F00C1BA96 = D6EC3F531211510F00C1BA96 /* PBXTextBookmark */;
+			D6EC3F541211510F00C1BA96 = D6EC3F541211510F00C1BA96 /* PBXTextBookmark */;
+			D6EC3F551211510F00C1BA96 = D6EC3F551211510F00C1BA96 /* PBXTextBookmark */;
+			D6EC3F561211510F00C1BA96 = D6EC3F561211510F00C1BA96 /* PBXTextBookmark */;
+			D6EC3F62121151E800C1BA96 = D6EC3F62121151E800C1BA96 /* PBXTextBookmark */;
+			D6EC3F63121151E800C1BA96 = D6EC3F63121151E800C1BA96 /* PBXTextBookmark */;
+			D6EC3F64121151E800C1BA96 = D6EC3F64121151E800C1BA96 /* PBXTextBookmark */;
+			D6EC3F65121151E800C1BA96 = D6EC3F65121151E800C1BA96 /* PBXTextBookmark */;
+			D6EC3F701211520900C1BA96 /* PBXTextBookmark */ = D6EC3F701211520900C1BA96 /* PBXTextBookmark */;
 		};
 		sourceControlManager = D6EC3E7E12111C3100C1BA96 /* Source Control */;
 		userBuildSettings = {
@@ -82,7 +87,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
+		breakpointsEnabled = 1;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -116,70 +121,12 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	D6EC3E8112111C5300C1BA96 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* GoogleDictionaryAppDelegate.h */;
-		name = "GoogleDictionaryAppDelegate.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 343;
-		vrLoc = 0;
-	};
-	D6EC3E8912111C6300C1BA96 /* JSON.h */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.h;
-		name = JSON.h;
-		path = /Users/xnmdyjj/Documents/GoogleDictionary/Classes/JSON.h;
-		sourceTree = "<absolute>";
-	};
-	D6EC3E8A12111C6300C1BA96 /* LKConstants.h */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.h;
-		name = LKConstants.h;
-		path = /Users/xnmdyjj/Documents/GoogleDictionary/Classes/LKConstants.h;
-		sourceTree = "<absolute>";
-	};
-	D6EC3E8B12111C6300C1BA96 /* LKGoogleTranslator.h */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.h;
-		name = LKGoogleTranslator.h;
-		path = /Users/xnmdyjj/Documents/GoogleDictionary/Classes/LKGoogleTranslator.h;
-		sourceTree = "<absolute>";
-	};
-	D6EC3E8C12111C6300C1BA96 /* LKGoogleTranslator.m */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.objc;
-		name = LKGoogleTranslator.m;
-		path = /Users/xnmdyjj/Documents/GoogleDictionary/Classes/LKGoogleTranslator.m;
-		sourceTree = "<absolute>";
-	};
 	D6EC3E8F12111C6300C1BA96 /* NSString+SBJSON.h */ = {
 		isa = PBXFileReference;
 		fileEncoding = 4;
 		lastKnownFileType = sourcecode.c.h;
 		name = "NSString+SBJSON.h";
 		path = "/Users/xnmdyjj/Documents/GoogleDictionary/Classes/NSString+SBJSON.h";
-		sourceTree = "<absolute>";
-	};
-	D6EC3E9112111C6300C1BA96 /* SBJSON.h */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.h;
-		name = SBJSON.h;
-		path = /Users/xnmdyjj/Documents/GoogleDictionary/Classes/SBJSON.h;
-		sourceTree = "<absolute>";
-	};
-	D6EC3E9212111C6300C1BA96 /* SBJSON.m */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.objc;
-		name = SBJSON.m;
-		path = /Users/xnmdyjj/Documents/GoogleDictionary/Classes/SBJSON.m;
 		sourceTree = "<absolute>";
 	};
 	D6EC3E9712111F5200C1BA96 /* PBXTextBookmark */ = {
@@ -192,67 +139,120 @@
 		vrLen = 1692;
 		vrLoc = 0;
 	};
-	D6EC3E9812111F5200C1BA96 /* PBXTextBookmark */ = {
+	D6EC3F3D1211502D00C1BA96 /* Language.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1069, 575}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 212}";
+		};
+	};
+	D6EC3F3E1211502D00C1BA96 /* Language.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1069, 570}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 188}";
+		};
+	};
+	D6EC3F401211504E00C1BA96 /* Translate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1189, 575}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 214}";
+		};
+	};
+	D6EC3F411211504E00C1BA96 /* Translate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1189, 575}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 191}";
+		};
+	};
+	D6EC3F43121150BD00C1BA96 /* GoogleTranslateViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1189, 575}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 252}";
+		};
+	};
+	D6EC3F46121150E400C1BA96 /* GoogleDictionaryViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1069, 575}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 254}";
+		};
+	};
+	D6EC3F47121150E400C1BA96 /* GoogleDictionaryViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1308, 1024}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 909}";
+		};
+	};
+	D6EC3F4B1211510F00C1BA96 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D6EC3E9112111C6300C1BA96 /* SBJSON.h */;
-		name = "SBJSON.h: 1";
+		fRef = D6EC3F4C1211510F00C1BA96 /* TranslatorFrame.java */;
+		name = "TranslatorFrame.java: 1";
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 1617;
+		vrLen = 1181;
 		vrLoc = 0;
 	};
-	D6EC3E9912111F5200C1BA96 /* PBXTextBookmark */ = {
+	D6EC3F4C1211510F00C1BA96 /* TranslatorFrame.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = TranslatorFrame.java;
+		path = "/Users/xnmdyjj/Documents/google-api-translate-java-read-only/src/com/google/api/translate/TranslatorFrame.java";
+		sourceTree = "<absolute>";
+	};
+	D6EC3F4D1211510F00C1BA96 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D6EC3E9212111C6300C1BA96 /* SBJSON.m */;
-		name = "SBJSON.m: 12";
+		fRef = D6EC3F4E1211510F00C1BA96 /* Translate.java */;
+		name = "Translate.java: 1";
 		rLen = 0;
-		rLoc = 527;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 1782;
+		vrLen = 1371;
+		vrLoc = 1918;
+	};
+	D6EC3F4E1211510F00C1BA96 /* Translate.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = Translate.java;
+		path = "/Users/xnmdyjj/Documents/google-api-translate-java-read-only/src/com/google/api/translate/Translate.java";
+		sourceTree = "<absolute>";
+	};
+	D6EC3F501211510F00C1BA96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D6EC3F3E1211502D00C1BA96 /* Language.m */;
+		name = "Language.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 188;
 		vrLoc = 0;
 	};
-	D6EC3E9A12111F5200C1BA96 /* PBXTextBookmark */ = {
+	D6EC3F511211510F00C1BA96 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D6EC3E8912111C6300C1BA96 /* JSON.h */;
-		name = "JSON.h: 1";
+		fRef = D6EC3F401211504E00C1BA96 /* Translate.h */;
+		name = "Translate.h: 1";
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 1811;
+		vrLen = 214;
 		vrLoc = 0;
 	};
-	D6EC3E9B12111F5200C1BA96 /* PBXTextBookmark */ = {
+	D6EC3F521211510F00C1BA96 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D6EC3E8A12111C6300C1BA96 /* LKConstants.h */;
-		name = "LKConstants.h: 1";
+		fRef = D6EC3F411211504E00C1BA96 /* Translate.m */;
+		name = "Translate.m: 1";
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 1188;
-		vrLoc = 45;
-	};
-	D6EC3E9C12111F5200C1BA96 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D6EC3E8B12111C6300C1BA96 /* LKGoogleTranslator.h */;
-		name = "LKGoogleTranslator.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 341;
+		vrLen = 191;
 		vrLoc = 0;
 	};
-	D6EC3E9D12111F5200C1BA96 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D6EC3E8C12111C6300C1BA96 /* LKGoogleTranslator.m */;
-		name = "LKGoogleTranslator.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 2019;
-		vrLoc = 200;
-	};
-	D6EC3E9E12111F5200C1BA96 /* PBXTextBookmark */ = {
+	D6EC3F531211510F00C1BA96 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1D3623250D0F684500981E51 /* GoogleDictionaryAppDelegate.m */;
 		name = "GoogleDictionaryAppDelegate.m: 4";
@@ -262,34 +262,91 @@
 		vrLen = 565;
 		vrLoc = 0;
 	};
-	D6EC3E9F12111F5200C1BA96 /* PBXTextBookmark */ = {
+	D6EC3F541211510F00C1BA96 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* GoogleDictionaryAppDelegate.m */;
-		name = "GoogleDictionaryAppDelegate.m: 4";
-		rLen = 0;
-		rLoc = 60;
-		rType = 0;
-		vrLen = 565;
-		vrLoc = 0;
-	};
-	D6EC3F041211491800C1BA96 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* GoogleDictionaryAppDelegate.m */;
-		name = "GoogleDictionaryAppDelegate.m: 4";
-		rLen = 0;
-		rLoc = 60;
-		rType = 0;
-		vrLen = 565;
-		vrLoc = 0;
-	};
-	D6EC3F051211491800C1BA96 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D6EC3E8B12111C6300C1BA96 /* LKGoogleTranslator.h */;
-		name = "LKGoogleTranslator.h: 1";
+		fRef = D6EC3F43121150BD00C1BA96 /* GoogleTranslateViewController.h */;
+		name = "GoogleTranslateViewController.h: 1";
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 341;
+		vrLen = 252;
+		vrLoc = 0;
+	};
+	D6EC3F551211510F00C1BA96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* GoogleDictionaryAppDelegate.h */;
+		name = "GoogleDictionaryAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 343;
+		vrLoc = 0;
+	};
+	D6EC3F561211510F00C1BA96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D6EC3F47121150E400C1BA96 /* GoogleDictionaryViewController.m */;
+		name = "GoogleDictionaryViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 909;
+		vrLoc = 0;
+	};
+	D6EC3F5F121151B200C1BA96 /* GoogleHistoryViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1069, 575}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 248}";
+		};
+	};
+	D6EC3F62121151E800C1BA96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D6EC3F46121150E400C1BA96 /* GoogleDictionaryViewController.h */;
+		name = "GoogleDictionaryViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 254;
+		vrLoc = 0;
+	};
+	D6EC3F63121151E800C1BA96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D6EC3F5F121151B200C1BA96 /* GoogleHistoryViewController.h */;
+		name = "GoogleHistoryViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 248;
+		vrLoc = 0;
+	};
+	D6EC3F64121151E800C1BA96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D6EC3F3D1211502D00C1BA96 /* Language.h */;
+		name = "Language.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 212;
+		vrLoc = 0;
+	};
+	D6EC3F65121151E800C1BA96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D6EC3F3E1211502D00C1BA96 /* Language.m */;
+		name = "Language.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 188;
+		vrLoc = 0;
+	};
+	D6EC3F701211520900C1BA96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D6EC3F3E1211502D00C1BA96 /* Language.m */;
+		name = "Language.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 188;
 		vrLoc = 0;
 	};
 }
