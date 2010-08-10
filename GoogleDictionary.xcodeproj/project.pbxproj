@@ -18,11 +18,12 @@
 		D6EC3F1C1211498900C1BA96 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EC3F151211498900C1BA96 /* SBJsonBase.m */; };
 		D6EC3F1D1211498900C1BA96 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EC3F171211498900C1BA96 /* SBJsonParser.m */; };
 		D6EC3F1E1211498900C1BA96 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EC3F191211498900C1BA96 /* SBJsonWriter.m */; };
-		D6EC3F3F1211502D00C1BA96 /* Language.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EC3F3E1211502D00C1BA96 /* Language.m */; };
 		D6EC3F421211504E00C1BA96 /* Translate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EC3F411211504E00C1BA96 /* Translate.m */; };
 		D6EC3F45121150BD00C1BA96 /* GoogleTranslateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EC3F44121150BD00C1BA96 /* GoogleTranslateViewController.m */; };
 		D6EC3F48121150E400C1BA96 /* GoogleDictionaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EC3F47121150E400C1BA96 /* GoogleDictionaryViewController.m */; };
 		D6EC3F61121151B200C1BA96 /* GoogleHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EC3F60121151B200C1BA96 /* GoogleHistoryViewController.m */; };
+		D6EC3F921211620200C1BA96 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EC3F911211620200C1BA96 /* Connection.m */; };
+		D6EC3F9F1211633700C1BA96 /* Language.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EC3F9E1211633700C1BA96 /* Language.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,7 +49,6 @@
 		D6EC3F181211498900C1BA96 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		D6EC3F191211498900C1BA96 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		D6EC3F3D1211502D00C1BA96 /* Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Language.h; sourceTree = "<group>"; };
-		D6EC3F3E1211502D00C1BA96 /* Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Language.m; sourceTree = "<group>"; };
 		D6EC3F401211504E00C1BA96 /* Translate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Translate.h; sourceTree = "<group>"; };
 		D6EC3F411211504E00C1BA96 /* Translate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Translate.m; sourceTree = "<group>"; };
 		D6EC3F43121150BD00C1BA96 /* GoogleTranslateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleTranslateViewController.h; sourceTree = "<group>"; };
@@ -57,6 +57,9 @@
 		D6EC3F47121150E400C1BA96 /* GoogleDictionaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoogleDictionaryViewController.m; path = ../GoogleDictionaryViewController.m; sourceTree = "<group>"; };
 		D6EC3F5F121151B200C1BA96 /* GoogleHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleHistoryViewController.h; sourceTree = "<group>"; };
 		D6EC3F60121151B200C1BA96 /* GoogleHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleHistoryViewController.m; sourceTree = "<group>"; };
+		D6EC3F901211620200C1BA96 /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		D6EC3F911211620200C1BA96 /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		D6EC3F9E1211633700C1BA96 /* Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Language.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,9 +163,11 @@
 			isa = PBXGroup;
 			children = (
 				D6EC3F3D1211502D00C1BA96 /* Language.h */,
-				D6EC3F3E1211502D00C1BA96 /* Language.m */,
+				D6EC3F9E1211633700C1BA96 /* Language.m */,
 				D6EC3F401211504E00C1BA96 /* Translate.h */,
 				D6EC3F411211504E00C1BA96 /* Translate.m */,
+				D6EC3F901211620200C1BA96 /* Connection.h */,
+				D6EC3F911211620200C1BA96 /* Connection.m */,
 			);
 			name = GoogleTranslate;
 			sourceTree = "<group>";
@@ -227,11 +232,12 @@
 				D6EC3F1C1211498900C1BA96 /* SBJsonBase.m in Sources */,
 				D6EC3F1D1211498900C1BA96 /* SBJsonParser.m in Sources */,
 				D6EC3F1E1211498900C1BA96 /* SBJsonWriter.m in Sources */,
-				D6EC3F3F1211502D00C1BA96 /* Language.m in Sources */,
 				D6EC3F421211504E00C1BA96 /* Translate.m in Sources */,
 				D6EC3F45121150BD00C1BA96 /* GoogleTranslateViewController.m in Sources */,
 				D6EC3F48121150E400C1BA96 /* GoogleDictionaryViewController.m in Sources */,
 				D6EC3F61121151B200C1BA96 /* GoogleHistoryViewController.m in Sources */,
+				D6EC3F921211620200C1BA96 /* Connection.m in Sources */,
+				D6EC3F9F1211633700C1BA96 /* Language.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

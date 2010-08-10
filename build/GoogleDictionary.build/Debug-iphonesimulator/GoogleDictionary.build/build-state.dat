@@ -1,7 +1,7 @@
 TGoogleDictionary
 v7
 r0
-t303124062.129018
+t303132417.690922
 cCheck dependencies
 cProcessInfoPlistFile /Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app/Info.plist GoogleDictionary-Info.plist
 cCompileXIB /Users/xnmdyjj/Documents/Google-translate/MainWindow.xib
@@ -13,6 +13,12 @@ cCompileC build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.bu
 cCompileC build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/SBJsonBase.o /Users/xnmdyjj/Documents/Google-translate/Classes/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/SBJsonParser.o /Users/xnmdyjj/Documents/Google-translate/Classes/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/SBJsonWriter.o /Users/xnmdyjj/Documents/Google-translate/Classes/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/Translate.o /Users/xnmdyjj/Documents/Google-translate/Classes/Translate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/GoogleTranslateViewController.o /Users/xnmdyjj/Documents/Google-translate/Classes/GoogleTranslateViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/GoogleDictionaryViewController.o /Users/xnmdyjj/Documents/Google-translate/Classes/../GoogleDictionaryViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/GoogleHistoryViewController.o /Users/xnmdyjj/Documents/Google-translate/Classes/GoogleHistoryViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/Connection.o /Users/xnmdyjj/Documents/Google-translate/Classes/Connection.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/Language.o /Users/xnmdyjj/Documents/Google-translate/Classes/Language.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app/GoogleDictionary normal i386
 cGenerateDSYMFile /Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app.dSYM /Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app/GoogleDictionary
 cTouch /Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app
@@ -53,6 +59,18 @@ t1281431908
 s1596
 i"GoogleDictionaryViewController.h"
 
+N/Users/xnmdyjj/Documents/Google-translate/Classes/Connection.h
+c000000004C61374C00000000000001E8
+t1281439564
+s488
+i<Foundation/Foundation.h>
+
+N/Users/xnmdyjj/Documents/Google-translate/Classes/Connection.m
+c000000004C6134460000000000000C13
+t1281438790
+s3091
+i"Connection.h"
+
 N/Users/xnmdyjj/Documents/Google-translate/Classes/GoogleDictionaryAppDelegate.h
 c000000004C6116B30000000000000157
 t1281431219
@@ -90,15 +108,15 @@ s1593
 i"GoogleTranslateViewController.h"
 
 N/Users/xnmdyjj/Documents/Google-translate/Classes/Language.h
-c000000004C6118AD00000000000000D4
-t1281431725
-s212
+c000000004C6136D20000000000000C83
+t1281439442
+s3203
 i<Foundation/Foundation.h>
 
 N/Users/xnmdyjj/Documents/Google-translate/Classes/Language.m
-c000000004C6118AD00000000000000BC
-t1281431725
-s188
+c000000004C6136CA0000000000000D42
+t1281439434
+s3394
 i"Language.h"
 
 N/Users/xnmdyjj/Documents/Google-translate/Classes/NSObject+SBJSON.h
@@ -166,16 +184,17 @@ s8408
 i"SBJsonWriter.h"
 
 N/Users/xnmdyjj/Documents/Google-translate/Classes/Translate.h
-c000000004C6118CE00000000000000D6
-t1281431758
-s214
+c000000004C6137410000000000000142
+t1281439553
+s322
 i<Foundation/Foundation.h>
 
 N/Users/xnmdyjj/Documents/Google-translate/Classes/Translate.m
-c000000004C6118CE00000000000000BF
-t1281431758
-s191
+c000000004C61375B00000000000001E9
+t1281439579
+s489
 i"Translate.h"
+i"Connection.h"
 
 N/Users/xnmdyjj/Documents/Google-translate/GoogleDictionaryViewController.h
 c000000004C61196400000000000000FE
@@ -202,16 +221,16 @@ t1281431219
 s8501
 
 N/Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app
-t1281431262
+t1281439617
 s204
 
 N/Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app.dSYM
-t1281431262
+t1281439617
 s102
 
 N/Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app/GoogleDictionary
-t1281431262
-s43452
+t1281439617
+s53092
 
 N/Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app/Info.plist
 t1281431219
@@ -225,30 +244,34 @@ N/Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDic
 t1281431219
 s8
 
+N/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/Connection.o
+t1281439565
+s17032
+
 N/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/GoogleDictionary.LinkFileList
-c000000004C6116DD000000000000042C
-t1281431261
-s1068
+c000000004C612BC400000000000007DF
+t1281436612
+s2015
 
 N/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/GoogleDictionaryAppDelegate.o
 t1281431261
 s17472
 
 N/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/GoogleDictionaryViewController.o
-t2
-s0
+t1281432272
+s30196
 
 N/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/GoogleHistoryViewController.o
-t2
-s0
+t1281432272
+s30152
 
 N/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/GoogleTranslateViewController.o
-t2
-s0
+t1281432272
+s30180
 
 N/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/Language.o
-t2
-s0
+t1281439443
+s4888
 
 N/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/NSObject+SBJSON.o
 t1281431261
@@ -271,8 +294,8 @@ t1281431262
 s23956
 
 N/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/Translate.o
-t2
-s0
+t1281439617
+s7012
 
 N/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/main.o
 t1281431261
@@ -497,7 +520,20 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies303124061#303124061#0(0"0(0#1#0"4300911832#0"0#
+lSLF07#2@18"Check dependencies303132417#303132417#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/Connection.o /Users/xnmdyjj/Documents/Google-translate/Classes/Connection.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303132365.923025
+e303132365.995948
+r1
+xCompileC
+xbuild/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/Connection.o
+x/Users/xnmdyjj/Documents/Google-translate/Classes/Connection.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/xnmdyjj/Documents/Google-translate/Classes/Connection.m303132365#303132365#0(0"0(0#0#62"/Users/xnmdyjj/Documents/Google-translate/Classes/Connection.m4300911832#2092"    cd /Users/xnmdyjj/Documents/Google-translate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-generated-files.hmap -I/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-own-target-headers.hmap -I/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-all-target-headers.hmap -iquote /Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-project-headers.hmap -F/Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator -I/Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/include -I/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/DerivedSources/i386 -I/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/DerivedSources -include /var/folders/mE/mE+Vyf7JFpiTanHkD-ayK++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GoogleDictionary_Prefix-alqriftcicismlbqiwujrgvozpme/GoogleDictionary_Prefix.pch -c /Users/xnmdyjj/Documents/Google-translate/Classes/Connection.m -o /Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/Connection.o0#
 
 CCompileC build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/GoogleDictionaryAppDelegate.o /Users/xnmdyjj/Documents/Google-translate/Classes/GoogleDictionaryAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s303124061.847050
@@ -526,22 +562,62 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@87"Compile /Users/xnmdyjj/Documents/GoogleDictionary/Classes/GoogleDictionaryAppDelegate.m303122827#303122828#0(0"0(0#0#79"/Users/xnmdyjj/Documents/GoogleDictionary/Classes/GoogleDictionaryAppDelegate.m4300911832#2126"    cd /Users/xnmdyjj/Documents/GoogleDictionary    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xnmdyjj/Documents/GoogleDictionary/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-generated-files.hmap -I/Users/xnmdyjj/Documents/GoogleDictionary/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-own-target-headers.hmap -I/Users/xnmdyjj/Documents/GoogleDictionary/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-all-target-headers.hmap -iquote /Users/xnmdyjj/Documents/GoogleDictionary/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-project-headers.hmap -F/Users/xnmdyjj/Documents/GoogleDictionary/build/Debug-iphonesimulator -I/Users/xnmdyjj/Documents/GoogleDictionary/build/Debug-iphonesimulator/include -I/Users/xnmdyjj/Documents/GoogleDictionary/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/DerivedSources/i386 -I/Users/xnmdyjj/Documents/GoogleDictionary/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/DerivedSources -include /var/folders/mE/mE+Vyf7JFpiTanHkD-ayK++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GoogleDictionary_Prefix-bggoyxejckltgibeabmkzmduhfyv/GoogleDictionary_Prefix.pch -c /Users/xnmdyjj/Documents/GoogleDictionary/Classes/GoogleDictionaryAppDelegate.m -o /Users/xnmdyjj/Documents/GoogleDictionary/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/GoogleDictionaryAppDelegate.o0#
 
 CCompileC build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/GoogleDictionaryViewController.o /Users/xnmdyjj/Documents/Google-translate/Classes/../GoogleDictionaryViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
+s303125072.246003
+e303125072.300155
+r1
+xCompileC
+xbuild/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/GoogleDictionaryViewController.o
+x/Users/xnmdyjj/Documents/Google-translate/Classes/../GoogleDictionaryViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/xnmdyjj/Documents/Google-translate/Classes/../GoogleDictionaryViewController.m303125072#303125072#0(0"0(0#0#85"/Users/xnmdyjj/Documents/Google-translate/Classes/../GoogleDictionaryViewController.m4300911832#2135"    cd /Users/xnmdyjj/Documents/Google-translate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-generated-files.hmap -I/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-own-target-headers.hmap -I/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-all-target-headers.hmap -iquote /Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-project-headers.hmap -F/Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator -I/Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/include -I/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/DerivedSources/i386 -I/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/DerivedSources -include /var/folders/mE/mE+Vyf7JFpiTanHkD-ayK++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GoogleDictionary_Prefix-alqriftcicismlbqiwujrgvozpme/GoogleDictionary_Prefix.pch -c /Users/xnmdyjj/Documents/Google-translate/Classes/../GoogleDictionaryViewController.m -o /Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/GoogleDictionaryViewController.o0#
 
 CCompileC build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/GoogleDictionaryViewController.o /Users/xnmdyjj/Documents/Google-translate/GoogleDictionaryViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/GoogleHistoryViewController.o /Users/xnmdyjj/Documents/Google-translate/Classes/GoogleHistoryViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
+s303125072.295954
+e303125072.348638
+r1
+xCompileC
+xbuild/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/GoogleHistoryViewController.o
+x/Users/xnmdyjj/Documents/Google-translate/Classes/GoogleHistoryViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/xnmdyjj/Documents/Google-translate/Classes/GoogleHistoryViewController.m303125072#303125072#0(0"0(0#0#79"/Users/xnmdyjj/Documents/Google-translate/Classes/GoogleHistoryViewController.m4300911832#2126"    cd /Users/xnmdyjj/Documents/Google-translate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-generated-files.hmap -I/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-own-target-headers.hmap -I/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-all-target-headers.hmap -iquote /Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-project-headers.hmap -F/Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator -I/Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/include -I/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/DerivedSources/i386 -I/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/DerivedSources -include /var/folders/mE/mE+Vyf7JFpiTanHkD-ayK++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GoogleDictionary_Prefix-alqriftcicismlbqiwujrgvozpme/GoogleDictionary_Prefix.pch -c /Users/xnmdyjj/Documents/Google-translate/Classes/GoogleHistoryViewController.m -o /Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/GoogleHistoryViewController.o0#
 
 CCompileC build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/GoogleTranslateViewController.o /Users/xnmdyjj/Documents/Google-translate/Classes/GoogleTranslateViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
+s303125072.238666
+e303125072.295863
+r1
+xCompileC
+xbuild/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/GoogleTranslateViewController.o
+x/Users/xnmdyjj/Documents/Google-translate/Classes/GoogleTranslateViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/xnmdyjj/Documents/Google-translate/Classes/GoogleTranslateViewController.m303125072#303125072#0(0"0(0#0#81"/Users/xnmdyjj/Documents/Google-translate/Classes/GoogleTranslateViewController.m4300911832#2130"    cd /Users/xnmdyjj/Documents/Google-translate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-generated-files.hmap -I/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-own-target-headers.hmap -I/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-all-target-headers.hmap -iquote /Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-project-headers.hmap -F/Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator -I/Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/include -I/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/DerivedSources/i386 -I/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/DerivedSources -include /var/folders/mE/mE+Vyf7JFpiTanHkD-ayK++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GoogleDictionary_Prefix-alqriftcicismlbqiwujrgvozpme/GoogleDictionary_Prefix.pch -c /Users/xnmdyjj/Documents/Google-translate/Classes/GoogleTranslateViewController.m -o /Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/GoogleTranslateViewController.o0#
 
 CCompileC build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/LKGoogleTranslator.o /Users/xnmdyjj/Documents/GoogleDictionary/Classes/LKGoogleTranslator.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/Language.o /Users/xnmdyjj/Documents/Google-translate/Classes/Language.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
+s303132243.348183
+e303132243.410389
+r1
+xCompileC
+xbuild/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/Language.o
+x/Users/xnmdyjj/Documents/Google-translate/Classes/Language.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/xnmdyjj/Documents/Google-translate/Classes/Language.m303132243#303132243#0(0"0(0#0#60"/Users/xnmdyjj/Documents/Google-translate/Classes/Language.m4300911832#2088"    cd /Users/xnmdyjj/Documents/Google-translate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-generated-files.hmap -I/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-own-target-headers.hmap -I/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-all-target-headers.hmap -iquote /Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-project-headers.hmap -F/Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator -I/Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/include -I/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/DerivedSources/i386 -I/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/DerivedSources -include /var/folders/mE/mE+Vyf7JFpiTanHkD-ayK++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GoogleDictionary_Prefix-alqriftcicismlbqiwujrgvozpme/GoogleDictionary_Prefix.pch -c /Users/xnmdyjj/Documents/Google-translate/Classes/Language.m -o /Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/Language.o0#
 
 CCompileC build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/NSObject+SBJSON.o /Users/xnmdyjj/Documents/Google-translate/Classes/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s303124061.891272
@@ -677,7 +753,17 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@72"Compile /Users/xnmdyjj/Documents/GoogleDictionary/Classes/SBJsonWriter.m303122828#303122828#0(0"0(0#0#64"/Users/xnmdyjj/Documents/GoogleDictionary/Classes/SBJsonWriter.m4300911832#2096"    cd /Users/xnmdyjj/Documents/GoogleDictionary    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xnmdyjj/Documents/GoogleDictionary/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-generated-files.hmap -I/Users/xnmdyjj/Documents/GoogleDictionary/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-own-target-headers.hmap -I/Users/xnmdyjj/Documents/GoogleDictionary/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-all-target-headers.hmap -iquote /Users/xnmdyjj/Documents/GoogleDictionary/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-project-headers.hmap -F/Users/xnmdyjj/Documents/GoogleDictionary/build/Debug-iphonesimulator -I/Users/xnmdyjj/Documents/GoogleDictionary/build/Debug-iphonesimulator/include -I/Users/xnmdyjj/Documents/GoogleDictionary/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/DerivedSources/i386 -I/Users/xnmdyjj/Documents/GoogleDictionary/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/DerivedSources -include /var/folders/mE/mE+Vyf7JFpiTanHkD-ayK++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GoogleDictionary_Prefix-bggoyxejckltgibeabmkzmduhfyv/GoogleDictionary_Prefix.pch -c /Users/xnmdyjj/Documents/GoogleDictionary/Classes/SBJsonWriter.m -o /Users/xnmdyjj/Documents/GoogleDictionary/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/SBJsonWriter.o0#
 
 CCompileC build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/Translate.o /Users/xnmdyjj/Documents/Google-translate/Classes/Translate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
+s303132417.545985
+e303132417.653891
+r1
+xCompileC
+xbuild/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/Translate.o
+x/Users/xnmdyjj/Documents/Google-translate/Classes/Translate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/xnmdyjj/Documents/Google-translate/Classes/Translate.m303132417#303132417#0(0"0(0#0#61"/Users/xnmdyjj/Documents/Google-translate/Classes/Translate.m4300911832#2090"    cd /Users/xnmdyjj/Documents/Google-translate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-generated-files.hmap -I/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-own-target-headers.hmap -I/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-all-target-headers.hmap -iquote /Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-project-headers.hmap -F/Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator -I/Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/include -I/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/DerivedSources/i386 -I/Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/DerivedSources -include /var/folders/mE/mE+Vyf7JFpiTanHkD-ayK++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GoogleDictionary_Prefix-alqriftcicismlbqiwujrgvozpme/GoogleDictionary_Prefix.pch -c /Users/xnmdyjj/Documents/Google-translate/Classes/Translate.m -o /Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/Translate.o0#
 
 CCompileC build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/main.o /Users/xnmdyjj/Documents/Google-translate/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s303124061.846017
@@ -717,13 +803,13 @@ x/Users/xnmdyjj/Documents/GoogleDictionary/MainWindow.xib
 lSLF07#2@25"CompileXIB MainWindow.xib303122827#303122827#0(0"0(0#0#56"/Users/xnmdyjj/Documents/GoogleDictionary/MainWindow.xib4300911832#500"    cd /Users/xnmdyjj/Documents/GoogleDictionary    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/xnmdyjj/Documents/GoogleDictionary/build/Debug-iphonesimulator/GoogleDictionary.app/MainWindow.nib /Users/xnmdyjj/Documents/GoogleDictionary/MainWindow.xib0#
 
 CGenerateDSYMFile /Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app.dSYM /Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app/GoogleDictionary
-s303124062.116599
-e303124062.126959
+s303132417.672554
+e303132417.688849
 r1
 xGenerateDSYMFile
 x/Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app.dSYM
 x/Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app/GoogleDictionary
-lSLF07#2@136"GenerateDSYMFile build/Debug-iphonesimulator/GoogleDictionary.app.dSYM build/Debug-iphonesimulator/GoogleDictionary.app/GoogleDictionary303124062#303124062#0(0"0(0#0#107"/Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app/GoogleDictionary4300911832#419"    cd /Users/xnmdyjj/Documents/Google-translate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app/GoogleDictionary -o /Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app.dSYM0#
+lSLF07#2@136"GenerateDSYMFile build/Debug-iphonesimulator/GoogleDictionary.app.dSYM build/Debug-iphonesimulator/GoogleDictionary.app/GoogleDictionary303132417#303132417#0(0"0(0#0#107"/Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app/GoogleDictionary4300911832#419"    cd /Users/xnmdyjj/Documents/Google-translate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app/GoogleDictionary -o /Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app.dSYM0#
 
 CGenerateDSYMFile /Users/xnmdyjj/Documents/GoogleDictionary/build/Debug-iphonesimulator/GoogleDictionary.app.dSYM /Users/xnmdyjj/Documents/GoogleDictionary/build/Debug-iphonesimulator/GoogleDictionary.app/GoogleDictionary
 s303122828.404840
@@ -735,14 +821,14 @@ x/Users/xnmdyjj/Documents/GoogleDictionary/build/Debug-iphonesimulator/GoogleDic
 lSLF07#2@136"GenerateDSYMFile build/Debug-iphonesimulator/GoogleDictionary.app.dSYM build/Debug-iphonesimulator/GoogleDictionary.app/GoogleDictionary303122828#303122828#0(0"0(0#0#107"/Users/xnmdyjj/Documents/GoogleDictionary/build/Debug-iphonesimulator/GoogleDictionary.app/GoogleDictionary4300911832#419"    cd /Users/xnmdyjj/Documents/GoogleDictionary    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/xnmdyjj/Documents/GoogleDictionary/build/Debug-iphonesimulator/GoogleDictionary.app/GoogleDictionary -o /Users/xnmdyjj/Documents/GoogleDictionary/build/Debug-iphonesimulator/GoogleDictionary.app.dSYM0#
 
 CLd /Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app/GoogleDictionary normal i386
-s303124062.097790
-e303124062.116517
+s303132417.653967
+e303132417.672465
 r1
 xLd
 x/Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app/GoogleDictionary
 xnormal
 xi386
-lSLF07#2@112"Link /Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app/GoogleDictionary303124062#303124062#0(0"0(0#0#0"4300911832#924"    cd /Users/xnmdyjj/Documents/Google-translate    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator -F/Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator -filelist /Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/GoogleDictionary.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app/GoogleDictionary0#
+lSLF07#2@112"Link /Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app/GoogleDictionary303132417#303132417#0(0"0(0#0#0"4300911832#924"    cd /Users/xnmdyjj/Documents/Google-translate    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator -F/Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator -filelist /Users/xnmdyjj/Documents/Google-translate/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/Objects-normal/i386/GoogleDictionary.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app/GoogleDictionary0#
 
 CLd /Users/xnmdyjj/Documents/GoogleDictionary/build/Debug-iphonesimulator/GoogleDictionary.app/GoogleDictionary normal i386
 s303122828.225442
@@ -793,12 +879,12 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@38"Precompile GoogleDictionary_Prefix.pch303122827#303122827#0(0"0(0#0#69"/Users/xnmdyjj/Documents/GoogleDictionary/GoogleDictionary_Prefix.pch4300911832#1952"    cd /Users/xnmdyjj/Documents/GoogleDictionary    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xnmdyjj/Documents/GoogleDictionary/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-generated-files.hmap -I/Users/xnmdyjj/Documents/GoogleDictionary/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-own-target-headers.hmap -I/Users/xnmdyjj/Documents/GoogleDictionary/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-all-target-headers.hmap -iquote /Users/xnmdyjj/Documents/GoogleDictionary/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/GoogleDictionary-project-headers.hmap -F/Users/xnmdyjj/Documents/GoogleDictionary/build/Debug-iphonesimulator -I/Users/xnmdyjj/Documents/GoogleDictionary/build/Debug-iphonesimulator/include -I/Users/xnmdyjj/Documents/GoogleDictionary/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/DerivedSources/i386 -I/Users/xnmdyjj/Documents/GoogleDictionary/build/GoogleDictionary.build/Debug-iphonesimulator/GoogleDictionary.build/DerivedSources -c /Users/xnmdyjj/Documents/GoogleDictionary/GoogleDictionary_Prefix.pch -o /var/folders/mE/mE+Vyf7JFpiTanHkD-ayK++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GoogleDictionary_Prefix-bggoyxejckltgibeabmkzmduhfyv/GoogleDictionary_Prefix.pch.gch0#
 
 CTouch /Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app
-s303124062.127035
-e303124062.128990
+s303132417.688927
+e303132417.690892
 r1
 xTouch
 x/Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app
-lSLF07#2@96"Touch /Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app303124062#303124062#0(0"0(0#0#0"4300911832#293"    cd /Users/xnmdyjj/Documents/Google-translate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app0#
+lSLF07#2@96"Touch /Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app303132417#303132417#0(0"0(0#0#0"4300911832#293"    cd /Users/xnmdyjj/Documents/Google-translate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/xnmdyjj/Documents/Google-translate/build/Debug-iphonesimulator/GoogleDictionary.app0#
 
 CTouch /Users/xnmdyjj/Documents/GoogleDictionary/build/Debug-iphonesimulator/GoogleDictionary.app
 s303122828.417397
